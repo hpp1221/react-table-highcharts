@@ -1,0 +1,21 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: center;
+  margin :100px;
+}
+.ant-table-tbody > tr > td:nth-child(4){
+  width: 30%!important;
+  height: 100px!important;
+}
+
+text.highcharts-credits{
+  display: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+  height: 250px;
+}
+.highcharts-container{
+  height: 250px!important;
+}
+
